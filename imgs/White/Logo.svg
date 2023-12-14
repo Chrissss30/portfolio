@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.28 136.29">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: #240f0c;
-      }
-    </style>
-  </defs>
-  <g id="Camada_1-2" data-name="Camada 1">
-    <path class="cls-1" d="m34.04,0v136.29h61.27V53.63l-27.15-13.58v75.7h-6.96V20.54h6.96v11.88l27.15,13.57V0h-61.27Z"/>
-    <polygon class="cls-1" points="129.28 0 129.28 49.05 102.13 35.47 102.13 20.54 98.79 20.54 98.79 0 129.28 0"/>
-    <polygon class="cls-1" points="107 45.36 107 74.22 98.86 82.62 98.86 53.76 107 45.36"/>
-    <polygon class="cls-1" points="0 0 0 49.05 27.15 35.47 27.15 20.54 30.49 20.54 30.49 0 0 0"/>
-    <polygon class="cls-1" points="22.28 45.36 22.28 74.22 30.42 82.62 30.42 53.76 22.28 45.36"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_2_00000077325536877487656150000000832985948369569717_"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 129.3 136.3"
+	 style="enable-background:new 0 0 129.3 136.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g id="Camada_1-2">
+	<path class="st0" d="M34,0v136.3h61.3V53.6L68.2,40v75.7h-7V20.5h7v11.9L95.3,46V0C95.3,0,34,0,34,0z"/>
+	<polygon class="st0" points="129.3,0 129.3,49 102.1,35.5 102.1,20.5 98.8,20.5 98.8,0 	"/>
+	<polygon class="st0" points="107,45.4 107,74.2 98.9,82.6 98.9,53.8 	"/>
+	<polygon class="st0" points="0,0 0,49 27.1,35.5 27.1,20.5 30.5,20.5 30.5,0 	"/>
+	<polygon class="st0" points="22.3,45.4 22.3,74.2 30.4,82.6 30.4,53.8 	"/>
+</g>
 </svg>

@@ -10,6 +10,10 @@ body {
     width: 100%;
 }
 
+main {
+    height: 3640px;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -49,16 +53,20 @@ div.nav a {
     margin: auto 0;
 }
 
-.slide1, .slide2, .slide3, .slide4{
+.slide1, .slide2, .slide3{
     height: 911px;
-    display: flex;
+    font-family: 'Akshar', sans-serif;
 }
-.slide2, .slide3, .slide4{
+.container {
     margin: 0 14.35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .slide1{
-    background-image: url(./BG.png);
+    background-image: url(./imgs/BG.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #AAAAAA;
@@ -99,13 +107,16 @@ h1{
     margin: 0px 10px 5px;
 }
 
+.slide2 {
+    background-color: #000;
+    color: #FFF;
+}
+
 .content {
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1.75fr 3fr;
     grid-template-rows: repeat(5, 1fr);
-    column-gap: 40px;
-    margin: auto 0;
 }
 
 .content img{
@@ -115,23 +126,26 @@ h1{
 }
 
 .content p{
-    margin-top: 50px;
     grid-row: 2;
     grid-column: 2;
+}
+
+h3 {
+    font-size: 1.4rem;
 }
 
 .certifications{
     grid-column: 1;
     grid-row: 4;
-
 }
 
-.skills {
+.skills{
     grid-column: 2;
     grid-row: 3;
 }
 
-.certifications p{
+.certifications p,
+.language p{
     margin: 10px 0;
     display: flex;
     justify-self: center;
@@ -140,6 +154,15 @@ h1{
 ul {
     margin: 0;
     padding: 0 30px;
+    color: #FFF;
+}
+
+
+.std {
+    font-size: 0.6rem;
+    color: #AAA;
+    align-self: end;
+    margin-left: 4px;
 }
 
 div.patchs{
@@ -156,4 +179,66 @@ div.patchs img {
 .language {
     grid-column: 2;
     grid-row: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    background-color: #FFF;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: #7700AA solid 1px;
+    border-radius: 50px;
+    text-align: center;
+    width: 120px;
+    align-self: end;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 105px;
+    font-family: 'Akshar', sans-serif;
+}
+
+div.square {
+    width: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.email, .github, .lk, .wpp {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 50px 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.wpp p {
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    border-top: #555555 solid 4px;
+    position: absolute;
+    bottom: -2734px;
+}
+
+.core {
+    color: #FF0000;
 }
