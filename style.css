@@ -32,15 +32,12 @@ nav {
     margin: 0 14.35%;
 }
 
-div.nav a {
-    margin: 0 48px;
-}
-
-div.nav a {
+div.nav a{
     font-family: 'Akshar', sans-serif;
     font-size: 1rem;
     text-decoration: none;
     color: white;
+    margin: 0 48px;
     
 }
 
@@ -155,6 +152,9 @@ h3 {
 ul {
     margin: 0;
     padding: 0 30px;
+}
+
+li {
     color: #FFF;
 }
 
